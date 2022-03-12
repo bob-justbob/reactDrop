@@ -1,0 +1,35 @@
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-one {
+    width: 255px;
+    
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.padd {
+    /* padding-left: 5vh; */
+    margin-right: 5vh;
+    padding: 0 5px;
+}
+
+.padd li {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.padd h2 {
+    font-size: 16px;
+    text-align: left;
+}
+

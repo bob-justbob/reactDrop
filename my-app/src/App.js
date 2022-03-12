@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './banner/Banner';
+import Footer from './footer/Footer';
 import Head from './header/Head';
 import Asection from './sectionA/Asection';
 import Bsection from './sectionB/Bsection';
@@ -20,6 +21,7 @@ function App() {
       </div>
       <Dsection/>
       <Esection />
+      <Footer />
     </div>
   );
 }

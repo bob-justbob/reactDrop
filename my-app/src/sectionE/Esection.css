@@ -22,10 +22,10 @@
     text-align: left;
     display: flex;
     justify-content: center;
-    line-height: 25px;
+    line-height: 20px;
 
 }
 
 .E-bot div {
-    width: 65%;
+    width: 50%;
 }
