@@ -1,0 +1,112 @@
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 41, 62);
+    position: fixed;
+    opacity: 0.8;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.hed {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.left {
+
+    width: 60px;
+}
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right {
+
+    width: 95%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+@media (max-width: 987px) {
+    .right {
+        display: none;
+    }
+}
+
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 2vh;
+    text-transform: uppercase;
+}
+nav ul li:hover, nav ul li:focus {
+    color: rgb(75, 210, 223);
+    cursor: pointer;
+}
+
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1vh;
+
+}
+
+
+.sign div a {
+    color: rgb(75, 210, 223);
+    border-radius: 5px;
+    padding: 1px 10px 4px;
+    border: 2px solid rgb(75, 210, 223);
+}
+
+.sign div a:hover {
+    background-color: rgb(75, 210, 223);
+    color: #ffffff;
+}
+
+.face a {
+    color: rgb(75, 210, 223);
+}
+
+
+
+.facebooklogo  {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 1vh;
+}
+
+.facebooklogo:hover {
+    background-color: lightblue;
+}
+
+.facebooklogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

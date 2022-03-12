@@ -1,0 +1,29 @@
+.section_b {
+    margin-bottom: 5vh;
+}
+
+.b-boxes {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 170px));
+}
+
+
+
+.b-text p {
+    line-height: 10px;
+}
+
+.b-singup {
+    margin-top: 5vh;
+}
+
+.b-singup a {
+    background-color: #61d5df;
+    color: #ffffff;
+    padding: 6px 8px;
+    border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+
+.porps {
+    width: 244px;
+    height: 55px;
+    border: 2px dotted  rgb(97, 213, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-bottom: 10vh;
+}
+
+
+.props-left img {
+    width: 30px;
+    height: 30px;
+}
+
+.props-right {
+    line-height: 1px;
+    width: 55%;
+    letter-spacing: -1px;   
+    font-size: 14px;
+}

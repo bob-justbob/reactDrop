@@ -1,0 +1,6 @@
+
+.c-image {
+    display: grid;
+    grid-template-columns: repeat(2, 545px);
+    justify-content: center;
+}
