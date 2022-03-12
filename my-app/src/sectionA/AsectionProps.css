@@ -11,6 +11,11 @@
     margin-bottom: 10vh;
 }
 
+@media (max-width: 460px) {
+    .porps {
+        width: 100%;
+    }
+}
 
 .props-left img {
     width: 50px;

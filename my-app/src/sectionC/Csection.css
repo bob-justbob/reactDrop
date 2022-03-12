@@ -6,13 +6,30 @@
     margin-bottom: 8vh;
 }
 
+
+
+@media (max-width: 1082px) {
+    .c-image {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+
+
 .c-text h2 {
     font-size: 32px;
     color: rgb(73, 84, 125);
+    line-height: 20px;
 }
 
 .c-text p {
     color: rgb(106, 109, 124);
-    line-height: 5px;
+    line-height: 20px;
     font-size: 20px;
+}
+
+@media (max-width: 342px) {
+    .c-text {
+        padding: 0 10px;
+    }
 }

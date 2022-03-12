@@ -16,6 +16,7 @@
     align-items: center;
     gap: 10vh;
     padding-bottom: 10vh;
+    flex-wrap: wrap;
 }
 
 .f-images img {

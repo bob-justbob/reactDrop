@@ -4,6 +4,12 @@
     color: #ffffff;
     display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+@media (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+    }
 }
 
 .footer-one {
@@ -13,6 +19,10 @@
 
 .footer-img {
     width: 100%;
+}
+
+.footer-img img {
+    padding-top: 1vh;
 }
 
 .padd {

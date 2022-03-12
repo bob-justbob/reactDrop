@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     padding-top: 4vh;
+    flex-wrap: wrap;
 }
 .E-top li {
     padding-right: 3vh;
@@ -22,10 +23,39 @@
     text-align: left;
     display: flex;
     justify-content: center;
-    line-height: 20px;
+    line-height: 18px;
 
 }
 
 .E-bot div {
     width: 50%;
+}
+
+@media (max-width: 1270px) {
+    .E-bot div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 790px) {
+    .E-bot div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 652px) {
+    .E-bot div p {
+        font-size: 14px;
+    }
+    .Esection {
+        height: 900px;
+    }
+}
+
+@media (max-width: 446px) {
+    .Esection {
+        height: 1200px;
+        padding-bottom: 20vh;
+
+    }
 }

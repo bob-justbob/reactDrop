@@ -6,7 +6,7 @@ import './Banner.css';
 export default function Banner () {
     return (
         <div className="banner">
-            <div className="banners-content">
+            <div className="banner-content">
                 <div className="content-img">
                     <img src="https://www.365dropship.com/wp-content/uploads/2020/06/356Logo.svg" alt="banner img" />
                 </div>

@@ -14,11 +14,17 @@
 .banner-content {
     background-color: rgba(36, 41, 62, 0.8);
     width: 40%;
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+@media (max-width: 442px) {
+    .banner-content {
+        width: 70%;
+    }
+  
 }
 
 .content-img  {
@@ -37,6 +43,12 @@
 .content-text h4 {
     color: #ffffff;
     line-height: 2px;
+}
+
+@media (max-width: 750px) {
+    .content-text h4 {
+        line-height: 20px;
+    }
 }
 
 .banner-sign {
