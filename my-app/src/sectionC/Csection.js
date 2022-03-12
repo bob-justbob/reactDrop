@@ -7,9 +7,9 @@ export default function () {
     return (
         <div className="sectionC">
             <div className="c-text">
-                <h2>HOW THE DROPSHIP BUSINESS WORKS?</h2>
-                <p> Browse and select from our catalog. More than thousands of Dropship products available on various niches.</p>
-                <p>365 <strong>DROPSHIP</strong> product catalog covers an extensive selection from some of the world’s best sellers </p>
+                <h2>BENEFITS</h2>
+                <p>Easily sync dropship products into your online shop.</p>
+                <p>Manage your process manually or automatically, exporting all product details</p>
             </div>
             <div className="c-image">
                 <CsectionProps  image={hand} header={'Only one point of contact'} texts={"365 DROPSHIP will take care of the supply chain, no need to talk to hundreds of different suppliers, just choose the products and we will take care of the rest!"}/>

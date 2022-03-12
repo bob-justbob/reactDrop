@@ -1,0 +1,23 @@
+.f-div {
+    background-color: rgba(218, 218, 218, 0.12);
+}   
+
+.f-div h2 {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(73, 84, 125);
+}
+
+.f-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    padding-bottom: 10vh;
+}
+
+.f-images img {
+    opacity: 0.5;
+}

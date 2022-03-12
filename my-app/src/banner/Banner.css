@@ -13,7 +13,7 @@
 
 .banner-content {
     background-color: rgba(36, 41, 62, 0.8);
-    width: 60%;
+    width: 40%;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -31,6 +31,9 @@
     height: 100%;
 }
 
+.content-text {
+    margin-bottom: 2vh;
+}
 .content-text h4 {
     color: #ffffff;
     line-height: 2px;
@@ -48,6 +51,7 @@
     border-radius: 5px;
     padding: 5px 20px;
     letter-spacing: -0.8px;
+    font-size: 24px;
 }
 
 @media(max-width: 504px) {

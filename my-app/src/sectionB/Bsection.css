@@ -8,22 +8,32 @@
     align-items: center; */
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 170px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 255px));
+    gap: 2vh;
 }
 
-
+.b-text h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(73, 84, 125);
+}
 
 .b-text p {
     line-height: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(106, 109, 124);
 }
 
 .b-singup {
     margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 .b-singup a {
     background-color: #61d5df;
     color: #ffffff;
-    padding: 6px 8px;
+    padding: 15px 20px;
     border-radius: 5px;
+    font-size: 16px;
 }

@@ -1,20 +1,20 @@
 
 .porps {
-    width: 244px;
-    height: 55px;
+    width: 350px;
+    height: 93px;
     border: 2px dotted  rgb(97, 213, 223);
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    margin-right: 10px;
+    margin-right: 25px;
     margin-bottom: 10vh;
 }
 
 
 .props-left img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 .props-right {
@@ -22,4 +22,14 @@
     width: 55%;
     letter-spacing: -1px;   
     font-size: 14px;
+}
+
+.props-right h2 {
+    font-size: 28px;
+    color: rgb(73, 84, 125);
+}
+
+.props-right p {
+    color: rgb(73, 84, 125);
+    font-size: 18px;
 }

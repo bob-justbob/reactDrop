@@ -3,4 +3,16 @@
     display: grid;
     grid-template-columns: repeat(2, 545px);
     justify-content: center;
+    margin-bottom: 8vh;
+}
+
+.c-text h2 {
+    font-size: 32px;
+    color: rgb(73, 84, 125);
+}
+
+.c-text p {
+    color: rgb(106, 109, 124);
+    line-height: 5px;
+    font-size: 20px;
 }
