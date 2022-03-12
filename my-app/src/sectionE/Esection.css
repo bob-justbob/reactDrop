@@ -1,0 +1,31 @@
+.Esection {
+    height: 734px;
+    background-color: rgb(36, 41, 62);
+    color: #ffffff;
+}
+
+
+.E-top ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+.E-top li {
+    padding-right: 3vh;
+    border-bottom: 3px solid #ffffff ;
+    margin-right: 2px;
+    padding-right: 4vh;
+    padding: 20px;
+}
+
+.E-bot{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+
+}
+
+.E-bot div {
+    width: 65%;
+}
