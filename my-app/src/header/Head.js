@@ -1,9 +1,18 @@
 import React from "react";
 import "./Head.css";
 import Logo from "../images/logo.png"
+// import { useNavigate } from 'react-router-dom';
+// import React,{useState} from 'react';
+import {Link} from 'react-router-dom'
 
 
 export default function Head () {
+    // const history = useNavigate();
+    // const go = ()=> {
+
+    //     history.push("/Linked")
+    // }
+
     return (
         <header>
             <div className="hed">
@@ -13,12 +22,23 @@ export default function Head () {
                 <div className="right">
                     <nav>
                         <ul>
-                            <li>about</li>
-                            <li>catalog</li>
+                       
+                            <li>
+
+                                <Link to="/">
+                                   about
+                                </Link>
+                            </li>
+                            <li > 
+                                <Link to="/Linked">
+                                     catalog 
+                                 </Link>
+                            </li>
                             <li>pricing</li>
                             <li>supplier</li>
                             <li>helpcenter</li>
                             <li>blog</li>
+                      
                         </ul>
                     </nav>
                     <div className="sign">
