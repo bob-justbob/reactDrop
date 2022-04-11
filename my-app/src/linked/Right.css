@@ -77,13 +77,17 @@ form {
 
 .price {
     width: 100%;
-    background-color: aqua;
     height: 150px;
 }
 
 .price h1 {
     font-size: 14px;
     padding: 0 5px;
+    color: black;
+}
+
+.price p {
+    color: black;
 }
 
 .slider{

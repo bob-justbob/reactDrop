@@ -6,10 +6,11 @@ import { useState } from 'react';
 
 export default function Right() {
 
-    const [val, setVal] = useState([30, 60]);
+    const [val, setVal] = useState([200,500]);
+    const [change, setChange] = useState(val);
+
     const updateRange = (e, data) => {
-        setVal(data)
-        
+        setChange(data)
     }
     return (
         <div className="right-side">
@@ -31,9 +32,11 @@ export default function Right() {
                 <div className='price'>
                     <h1>Price Range</h1>
                     <div style={{width: 200, padding: 10}}>
-                    <Slider value={val} onChange={updateRange}/>
+                    <Slider max={1000} min={0} value={change} onChange={updateRange}/>
                     </div>
-                    <p>Value: <span id='demo'></span></p>
+                    <p>$: <span id='demo'>{change}</span> <span id='dem'>{}</span></p>
+
+
                 </div>
            </div>
            <div className="select">
