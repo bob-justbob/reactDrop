@@ -1,74 +1,91 @@
-.right {
-    color: black;
-    width: 255px ;
+.right-side {
+    width: 100%;
     height: 100vh;
+    background-color: aquamarine;
     display: flex;
-    justify-content: left;
-    align-items: baseline;
-    flex-direction: column;
-    background-color: rgb(236, 237, 245);
 }
-
 
 .catalog {
     width: 255px;
+    height: 505px;
+    background-color: rgb(236, 237, 245);
 }
 
-.flex {
-    display: flex;
-    width: 108;
-    height: 52px;
-    background-color: brown;
-    font-size: 17px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5px;
-    color: #ffffff;
-
-}
-.flex p {
-    padding-left: 10px;
-}
-
-.icon {
-    width: 15px;
-    height: 15px;
-    padding-right: 20px;
-
-}
-
-.icon img {
+.categoryTop {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-.dark {
+    height: 52px;
     background-color: rgb(93, 107, 159);
+    position: relative;
+    padding-top: 2px;
 }
 
-.notDark {
+
+.categoryTop p {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.categoryTop img {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.categoryBot {
+    width: 100%;
+    height: 52px;
     background-color: rgb(157, 169, 213);
+    position: relative;
+    padding-top: 2px;
+
 }
 
-.form form {
+.categoryBot p {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.categoryBot img {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.select {
+    width: 100%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+form {
+    width: 100%;
+    height: 200px;      
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 30px 15px;
+    gap: 2vh;
 }
 
-.form input {
-    margin-top: 25px;
-    width: 206px;
-    height: 15px;
-    padding: 10px 5px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
+.input {
+    padding: 10px;
 }
 
+.price {
+    width: 100%;
+    background-color: aqua;
+    height: 150px;
+}
 
-.prise {
-    font-size: 20px;
-    padding-left: 10px;
+.price h1 {
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.slider{
+    cursor: pointer;
 }
