@@ -25,12 +25,12 @@ export default function Head () {
                        
                             <li>
 
-                                <Link to="/">
+                                <Link to="/" style={{color: 'white'}}>
                                    about
                                 </Link>
                             </li>
                             <li > 
-                                <Link to="/Linked">
+                                <Link to="/Linked" style={{color: 'white'}}>
                                      catalog 
                                  </Link>
                             </li>

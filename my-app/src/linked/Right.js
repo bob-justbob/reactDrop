@@ -7,10 +7,9 @@ import { useState } from 'react';
 export default function Right() {
 
     const [val, setVal] = useState([200,500]);
-    const [change, setChange] = useState(val);
 
     const updateRange = (e, data) => {
-        setChange(data)
+        setVal(data)
     }
     return (
         <div className="right-side">
@@ -32,15 +31,44 @@ export default function Right() {
                 <div className='price'>
                     <h1>Price Range</h1>
                     <div style={{width: 200, padding: 10}}>
-                    <Slider max={1000} min={0} value={change} onChange={updateRange}/>
+                    <Slider max={1000} min={0} value={val} onChange={updateRange}/>
                     </div>
-                    <p>$: <span id='demo'>{change}</span> <span id='dem'>{}</span></p>
-
+                    <div className='pricese'>
+                        <p>$: <span id='demo'>{val[0]}</span></p>
+                        <p>$: <span id='demo'>{val[1]}</span></p>
+                     
+                    </div>
 
                 </div>
            </div>
            <div className="select">
-               s
+                <div className="selectTop">
+                    <div className="selectAll">
+                        <p>select all</p>
+                    </div>
+                    <div className='selecttext'>
+                        <p>selected 0 out of 0 products</p>
+                    </div>
+                    <div className="search">
+                        <input type="search"  className='searching' placeholder='search...'/>
+                        <img src="http://localhost:3000/assets/search.jpg" />
+                    </div>
+                    <div className="inventory">
+                        <p>ADD TO INVENTORY</p>
+                    </div>
+                    <button className='btn'>?</button>
+                </div>
+                <div className="selectBot">
+                    <label for="sort" className='label'>Sort By:</label>
+                    <select name="items" id="sort">
+                        <option value="new">New Arrivals</option>
+                        <option value="HTL">Price: High To Low</option>
+                        <option value="LTH">Price: High To Low</option>
+                        <option value="AZ">Profit: Alphabetic</option>
+                        <option value="ZA">Profit: Non-Alphabetic</option>
+                    </select>
+                </div>
+
            </div>
         </div>
     )

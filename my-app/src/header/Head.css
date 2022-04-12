@@ -110,3 +110,7 @@ nav ul li:hover, nav ul li:focus {
     height: 100%;
     object-fit: cover;
 }
+
+Link {
+    color: #ffffff;
+}
