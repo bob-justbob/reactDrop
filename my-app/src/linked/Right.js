@@ -3,10 +3,22 @@ import "./Right.css";
 import arrow from '../images/arrowDown.svg'
 import {Slider} from '@material-ui/core'
 import { useState } from 'react';
+import magnify from '../images/loupe.png'
+import { useEffect } from 'react';
 
 export default function Right() {
-
+    const [data, setData] = useState([])
+   
     const [val, setVal] = useState([200,500]);
+
+
+    useEffect(()=>{
+        fetch('https://fakestoreapi.com/products')
+            .then((response)=>response.json())
+            .then((fetchedData) => setData(fetchedData))
+    }, [])
+
+            console.log('Data', data)
 
     const updateRange = (e, data) => {
         setVal(data)
@@ -51,7 +63,7 @@ export default function Right() {
                     </div>
                     <div className="search">
                         <input type="search"  className='searching' placeholder='search...'/>
-                        <img src="http://localhost:3000/assets/search.jpg" />
+                        <img src={magnify} />
                     </div>
                     <div className="inventory">
                         <p>ADD TO INVENTORY</p>
@@ -68,8 +80,26 @@ export default function Right() {
                         <option value="ZA">Profit: Non-Alphabetic</option>
                     </select>
                 </div>
-
-           </div>
+                <div className='prodacts'>
+                    {
+                        data.map(prodacts=> {
+                            return (
+                            <div className="staff">
+                                <div className='staffImage'>
+                                    <img src={prodacts.image} />
+                                </div>
+                                <div className="staffTitle">
+                                    <p>{prodacts.title}</p>
+                                </div>
+                                <div className="staffPrice">
+                                    <p>${prodacts.price}</p>
+                                </div>
+                            </div>
+                            )
+                        })
+                    }
+                </div>
+           </div>   
         </div>
     )
 }

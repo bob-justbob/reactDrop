@@ -94,6 +94,12 @@ form {
     align-items: center;
 }
 
+@media (max-width: 1200px) {
+    .selectTop {
+        display: none;
+    }
+}
+
 .price {
     width: 100%;
     height: 150px;
@@ -182,4 +188,74 @@ label {
     font-size: 20px;
     margin-left: 5vh;
     margin-right: 10px;
+}
+
+.prodacts {
+    width: 100%;
+    height: 88vh;
+    /* background-color: black; */
+
+
+}
+
+
+.prodacts {
+    color: black;
+    width: 99%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    box-shadow: 5px 0 10px 5px rgb(126, 125, 125);
+    margin-top: 3vh;
+}
+
+@media (max-width: 1200px) {
+    .prodacts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .prodacts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.prodacts p {
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.staff {
+    width: 40vh;
+    height: 40vh;
+    background-color: rgb(237, 237, 237);
+}
+
+.staffImage {
+    width: 100%;
+    background-color: rgb(126, 125, 125);
+    height: 20vh;
+}
+
+.staffImage img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.staffTitle {
+
+    box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+    .catalog {
+        display: none;
+    }
+    .prodacts {
+        height: 120vh;
+        overflow: hidden;
+    }
 }
