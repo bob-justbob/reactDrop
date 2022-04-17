@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutBanner {
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://365dropship.com/wp-content/uploads/2020/06/aboutheader.jpg?id=156726);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutText {
+    text-align: center;
+    width: 45%;
+    color: white;
+    background-color: rgba(36, 41, 62, 0.8);
+    padding: 10vh 5vh;
+}
+
+.aboutText h2 {
+    font-size: 36px;
+}
+
+.aboutSecOne {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 10vh 5vh;
+}
+
+.secOneImage {
+    width: 40%;
+}
+
+.secOneImage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.secOnetext {
+    width: 50%;
+    margin-left: 5vh;
+}
+
+.secOnetext h2 {
+    color: #2d344f;
+    font-size: 34px;
+
+}
+
+
+
+.secOnetext div {
+    width: 100%;
+    line-height: 35px;
+    color: #64697b;
+    margin-bottom: 10px;
+}
+
+.secOnetext a {
+    color: white;
+    background-color: rgb(97, 213, 223);
+    padding: 6px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.secOnetext a:hover {
+    background-color: rgb(39, 205, 221);
+    cursor: pointer;
+    padding: 8px;
+}

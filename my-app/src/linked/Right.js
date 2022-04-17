@@ -85,15 +85,20 @@ export default function Right() {
                         data.map(prodacts=> {
                             return (
                             <div className="staff">
+                                 <a href='#'>
                                 <div className='staffImage'>
                                     <img src={prodacts.image} />
                                 </div>
                                 <div className="staffTitle">
-                                    <p>{prodacts.title}</p>
+                                    <h2>{prodacts.title}</h2>
                                 </div>
                                 <div className="staffPrice">
-                                    <p>${prodacts.price}</p>
+                                   <p>Price: ${prodacts.price}</p>
                                 </div>
+                                <div className="btnBye">
+                                    <a href="#">Buy Now</a>
+                                </div>
+                                </a>
                             </div>
                             )
                         })

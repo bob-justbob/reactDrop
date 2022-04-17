@@ -1,6 +1,6 @@
 .right-side {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(233, 233, 233);
     display: flex;
 }
@@ -83,7 +83,7 @@ form {
 .select {
     width: 100%;
     height: 150px;
-    background-color: rgb(242, 240, 238);
+    /* background-color: rgb(242, 240, 238); */
 }
 
 .selectTop {
@@ -190,13 +190,6 @@ label {
     margin-right: 10px;
 }
 
-.prodacts {
-    width: 100%;
-    height: 88vh;
-    /* background-color: black; */
-
-
-}
 
 
 .prodacts {
@@ -205,8 +198,10 @@ label {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    box-shadow: 5px 0 10px 5px rgb(126, 125, 125);
     margin-top: 3vh;
+    justify-content: center;
+    align-items: center;
+    padding: 7vh 2vh;
 }
 
 @media (max-width: 1200px) {
@@ -222,34 +217,65 @@ label {
 }
 
 .prodacts p {
-    color: black;
-    font-size: 20px;
+    color: rgb(18, 17, 17);
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+.prodacts h2 {
+    color: rgb(113, 112, 112);
+    font-size: 17px;
+    padding: 0 10px;
+    line-height: 19px;
 }
 
 
 
 .staff {
-    width: 40vh;
-    height: 40vh;
-    background-color: rgb(237, 237, 237);
+    width: 35vh;
+    height: 60vh;
+    background-color: rgb(230, 230, 230);  
+    margin: 3vh 0;
+    box-shadow: 5px 0 10px rgb(29, 29, 30);
+    border-radius: 10px;
+    position: relative;
 }
 
 .staffImage {
     width: 100%;
-    background-color: rgb(126, 125, 125);
-    height: 20vh;
+    background-color: rgb(230, 230, 230);
+    height: 40vh;
+    border-radius: 10px;
+
 }
+
 
 .staffImage img {
     object-fit: contain;
     width: 100%;
     height: 100%;
+    
 }
+
 .staffTitle {
 
     box-sizing: border-box;
 }
 
+.btnBye {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.btnBye a {
+    padding: 8px;
+    background-color: rgb(82, 82, 223);
+    color: white;
+    border-radius: 10px;
+}
 @media (max-width: 650px) {
     .catalog {
         display: none;

@@ -12,6 +12,7 @@ import { Routes, Route} from "react-router-dom"
 import React from 'react';
 import Linked from './linked/Linked';
 import All from './All';
+import About from "./about/About"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/"  element={<All />}/>
 
       <Route  path="Linked" element={<Linked />}/>
+      <Route  path="About" element={<About />}/>
       </Routes>
     </div>
   );

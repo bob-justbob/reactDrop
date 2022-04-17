@@ -17,7 +17,9 @@ export default function Head () {
         <header>
             <div className="hed">
                 <div className="left">
-                    <img src={Logo} alt="logo" />
+                     <Link to="/" style={{color: 'white'}}>
+                         <img src={Logo} alt="logo" />
+                     </Link>
                 </div>
                 <div className="right">
                     <nav>
@@ -25,7 +27,7 @@ export default function Head () {
                        
                             <li>
 
-                                <Link to="/" style={{color: 'white'}}>
+                                <Link to="about" style={{color: 'white'}}>
                                    about
                                 </Link>
                             </li>
