@@ -1,7 +1,9 @@
 import { lightBlue } from "@material-ui/core/colors";
 import React from "react";
 import Head from "../header/Head";
-import one from "../images/aboutImg.JPG"
+import aboutImg from "../images/aboutImg.JPG"
+import aboutImgTwo from "../images/aboutImgTwo.JPG"
+import Footer from "../footer/Footer"
 import './About.css';
 
 
@@ -18,7 +20,7 @@ export default function About () {
             </div>
             <div className="aboutSecOne" >
                 <div className="secOneImage">
-                    <img src={one}/>
+                    <img src={aboutImg}/>
                 </div>
                 <div className="secOnetext">
                     <h2>Out Story</h2>
@@ -28,6 +30,20 @@ export default function About () {
                     <a>contact us</a>
                 </div>
             </div>
+            <div className="aboutSecTwo">
+                <div className="secTwoText">
+                    <h2>365DROPSHIP Means:</h2>
+                    <div>
+                    <p>At 365DROPSHIP, we help you showcase your products through our online business partners across the globe, increase your order volumes, and ultimately grow your business. Apart from connecting you with our worldwide partners, we also make it easy to sell your products with us.Here’s what we can offer you as a supplier:Free, no obligation to Sign Up – We won’t charge you a thing when you start selling your products with us.Add as many products as you can – There are no limits to how many products you want to add to our network. Whether you’re selling a niche collection or distributing bulk orders, you’ll find customers with 365DROPSHIP.API integration – With our cutting-edge API, we’ll help you inform your customers about item availability and new products in real-time. This way, your customers get updated information about your products.</p>
+                    </div>
+                    <a href="#">be a supplier</a>
+                </div>
+                <div className="secTwoImage">
+                    <img src={aboutImgTwo}/>
+                </div>
+            </div>
+            <Footer />
+
         </div>
     )
 }

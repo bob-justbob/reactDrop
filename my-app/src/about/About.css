@@ -35,6 +35,7 @@
     justify-content: center;
     text-align: left;
     padding: 10vh 5vh;
+    flex-direction: row;
 }
 
 .secOneImage {
@@ -81,4 +82,48 @@
     background-color: rgb(39, 205, 221);
     cursor: pointer;
     padding: 8px;
+}
+
+.aboutSecTwo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 10vh 5vh;
+    flex-direction: row;
+
+}
+
+.secTwoText div {
+    margin-bottom: 10px;
+}
+
+.aboutSecTwo h2 {
+    font-size: 32px;
+    color: #2d344f;
+}
+
+.aboutSecTwo p {
+    color: #64697b;
+    line-height: 30px;
+    padding: 0 15px;
+}
+
+
+
+.aboutSecTwo a {
+    color: white;
+    background-color: rgb(97, 213, 223);
+    padding: 6px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.aboutSecTwo a:hover {
+    background-color: rgb(39, 205, 221);
+    cursor: pointer;
+    padding: 8px;
+
 }
