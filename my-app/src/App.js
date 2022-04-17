@@ -13,6 +13,7 @@ import React from 'react';
 import Linked from './linked/Linked';
 import All from './All';
 import About from "./about/About"
+import Pricing from "./pricing/Pricing"
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
 
       <Route  path="Linked" element={<Linked />}/>
       <Route  path="About" element={<About />}/>
+      <Route  path="Pricing" element={<Pricing />}/>
+
       </Routes>
     </div>
   );

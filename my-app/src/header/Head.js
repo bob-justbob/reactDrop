@@ -36,7 +36,9 @@ export default function Head () {
                                      catalog 
                                  </Link>
                             </li>
+                            <Link to="/Pricing" style={{color: 'white'}}>
                             <li>pricing</li>
+                            </Link>
                             <li>supplier</li>
                             <li>helpcenter</li>
                             <li>blog</li>
