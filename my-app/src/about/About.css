@@ -5,24 +5,49 @@
 }
 
 .aboutBanner {
+
     width: 100%;
-    height: 60vh;
-    background-image: url(https://365dropship.com/wp-content/uploads/2020/06/aboutheader.jpg?id=156726);
+    height: 100%;
+    /* background-image: url(https://365dropship.com/wp-content/uploads/2020/06/aboutheader.jpg?id=156726);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+@media (max-width: 800px){
+    .aboutBanner{
+       height: 70vh;
+    }
 }
 
 
+.aboutimg {
+    width: 100%;
+    height: 60vh;
+}
+
+.aboutimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 .aboutText {
+    position: absolute;
     text-align: center;
     width: 45%;
     color: white;
     background-color: rgba(36, 41, 62, 0.8);
     padding: 10vh 5vh;
+}
+
+@media (max-width: 800px){
+    .aboutText{
+        width: 100%;
+    }
 }
 
 .aboutText h2 {
@@ -38,6 +63,12 @@
     flex-direction: row;
 }
 
+@media (max-width: 1170px) {
+    .aboutSecOne {
+        flex-direction: column;
+    }
+} 
+
 .secOneImage {
     width: 40%;
 }
@@ -48,9 +79,22 @@
     height: 100%;
 }
 
+
+@media (max-width: 1142px) {
+    .secOneImage {
+        width: 70%;
+    }
+}
 .secOnetext {
     width: 50%;
     margin-left: 5vh;
+}
+
+@media (max-width: 1170px) {
+    .secOnetext {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 .secOnetext h2 {
@@ -94,6 +138,21 @@
 
 }
 
+
+@media (max-width: 1170px) {
+    .aboutSecTwo {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 800px) {
+    .secTwoImage img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .secTwoText div {
     margin-bottom: 10px;
 }
@@ -108,6 +167,7 @@
     line-height: 30px;
     padding: 0 15px;
 }
+
 
 
 

@@ -13,6 +13,9 @@ export default function About () {
         <div className="about">
             <Head  />
             <div className="aboutBanner">
+                <div className="aboutimg">
+                    <img src="https://365dropship.com/wp-content/uploads/2020/06/aboutheader.jpg?id=156726"/>
+                </div>
                 <div className="aboutText">
                     <h2>THIS IS WHO WE ARE</h2>
                     <p>A COMPANY THAT'S PASSIONATE ABOUT ECOMMERCE & BUILDING RELATIONSHIPS</p>
