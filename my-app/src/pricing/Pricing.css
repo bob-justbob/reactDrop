@@ -37,6 +37,7 @@
 
 .pricingBannerText p {
     color: white;
+
 }
 
 @media (max-width: 844px) {
@@ -49,4 +50,169 @@
     .pricingBannerText {
         padding: 5vh;
     }
+}
+
+.procingSec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.priceArea {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.priceLeft {
+    width: 25%;
+    padding: 2vh 0;
+
+}
+
+
+@media (max-width: 1160px) {
+    .priceArea {
+        flex-direction: column;
+    }
+    .priceLeft {
+        width: 100%;
+      
+    }
+    .priceLeft div {
+        border: 1px solid rgb(229, 229, 229);
+    }
+}
+
+.priceRight {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    padding: 5vh 0;
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+
+
+}
+
+@media (max-width: 750px) {
+    .priceRight {
+        /* flex-direction: column; */
+        width: 100%;
+        gap: 5vh;
+    }
+    .priceRightBox {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .priceRight {
+        gap: 5vh;
+    }
+}
+
+@media (max-width: 1170px) {
+    .priceRight {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .priceRight {
+       flex-direction: column;
+    }
+}
+
+.priceRightBox {
+    width: 35%;
+    line-height: 20px;
+    
+}
+@media (max-width: 746px) {
+    .priceRightBox {
+        width: 100%;
+        
+    }
+}
+
+.priceRightBox div {
+    border: 1px solid rgb(207, 204, 204);
+    width: 100%;
+    padding: 17px 15px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+
+.padd {
+    padding: 25px 10px;
+}
+.priceLeft div h3 {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.priceLeft div p {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    padding: 5px 10px;
+    font-size: 14px;
+
+}
+
+
+.space {
+    height: 63px;
+}
+
+.priceRightBox img {
+  width: 25px;
+  height: 25px; 
+  object-fit: cover;
+}
+
+.top-price {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceTegone {
+    background-color: rgb(73, 84, 125);
+}
+
+.priceTegTwo {
+    background-color: rgb(71, 133, 239);
+}
+
+.priceTegThree {
+    background-color: rgb(97, 213, 223);
+}
+
+.priceRightBox a {
+    color: #ffffff;
+    background-color: rgb(97, 213, 223);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.priceRightBox a:hover {
+    background-color: rgb(14, 204, 222);
+    padding: 15px 25px;
+}
+
+
+.spac {
+    height: 140px;
 }
