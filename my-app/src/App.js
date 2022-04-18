@@ -14,6 +14,7 @@ import Linked from './linked/Linked';
 import All from './All';
 import About from "./about/About"
 import Pricing from "./pricing/Pricing"
+import Supplier from './supplier/Supplier';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <Route  path="Linked" element={<Linked />}/>
       <Route  path="About" element={<About />}/>
       <Route  path="Pricing" element={<Pricing />}/>
+      <Route  path="Supplier" element={<Supplier />}/>
+
 
       </Routes>
     </div>

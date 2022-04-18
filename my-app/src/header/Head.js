@@ -39,7 +39,9 @@ export default function Head () {
                             <Link to="/Pricing" style={{color: 'white'}}>
                             <li>pricing</li>
                             </Link>
+                            <Link to="/Supplier" style={{color: 'white'}}>
                             <li>supplier</li>
+                            </Link>
                             <li>helpcenter</li>
                             <li>blog</li>
                       
