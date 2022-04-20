@@ -6,6 +6,12 @@
     text-decoration: none;
 }
 
+.helpcenter {
+    width: 100%;
+
+
+}
+
 
 .helpcenter-banner {
     width: 100%;
@@ -63,4 +69,90 @@
     .helpcenter-banner-text h2 {
         font-size: 18px;
     }
+}
+
+
+/* helpcenter-general-questions */
+
+
+.helpcenter-general-questions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.general-questions-one {
+    width: 70%;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .general-questions-one {
+        width: 100%;
+    }
+}
+
+.questone-header {
+    padding: 10px 10px;
+}
+
+.questone-header h2 {
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: rgb(45, 52, 79);
+}
+
+.questone-header p {
+    padding-top: 29px;
+}
+
+.question-one {
+    margin-top: 5vh;
+}
+
+.item {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.name {
+    color: rgb(73, 84, 125);
+    border-bottom: 1px solid rgb(73, 84, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.name h2 {
+    padding: 10px 0;
+}
+
+.info {
+    line-height: 25px;
+    padding: 10px 0;
+    color: #3d3930;
+    height: 1px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    display: none;
+    max-height: 0;
+}
+
+.info.show {
+    height: auto;
+    max-height: 999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+    display: block;
+
+}
+
+.question-two {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.question-two h3 {
+    padding-left: 2vh;
+    font-size: 34px;
+    color: rgb(45, 52, 79);
 }
