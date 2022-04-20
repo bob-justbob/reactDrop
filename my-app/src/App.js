@@ -16,6 +16,8 @@ import About from "./about/About"
 import Pricing from "./pricing/Pricing"
 import Supplier from './supplier/Supplier';
 import HelpCenter from './helpcenter/HelpCenter';
+import Blog from './blog/Blog';
+
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
       <Route  path="Pricing" element={<Pricing />}/>
       <Route  path="Supplier" element={<Supplier />}/>
       <Route  path="HelpCenter" element={<HelpCenter />}/>
+      <Route  path="Blog" element={<Blog />}/>
       </Routes>
     </div>
   );

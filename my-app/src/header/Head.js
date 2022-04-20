@@ -45,9 +45,9 @@ export default function Head () {
                             <Link to="/HelpCenter" style={{color: 'white'}}>
                             <li>helpcenter</li>
                             </Link>
-
+                            <Link to="/Blog" style={{color: 'white'}}>
                             <li>blog</li>
-                      
+                            </Link>
                         </ul>
                     </nav>
                     <div className="sign">
