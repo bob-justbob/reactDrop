@@ -42,7 +42,8 @@
 }
 .content-text h4 {
     color: #ffffff;
-    line-height: 2px;
+    line-height: 20px;
+
 }
 
 @media (max-width: 750px) {

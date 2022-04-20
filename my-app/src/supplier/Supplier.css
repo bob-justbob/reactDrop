@@ -61,3 +61,150 @@
         width: 100%;
     }
 }
+
+/* section one */
+
+.supplier-section-one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10vh 2vh;
+}
+
+.section-one-img {
+    width: 40%;
+}
+
+.section-one-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section-one-text {
+    width: 60%;
+    text-align: left; 
+    padding: 0 15px;
+    line-height: 25px;
+}
+
+.section-one-text h2 {
+    font-size: 30px;
+    color: rgb(45, 52, 79);
+}
+.section-one-text p {
+    font-size: 18px;
+    padding: 10px 0;
+    color: rgb(100, 105, 123);
+}
+
+.section-one-text a {
+    background-color: rgb(97, 213, 223);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+.supplier-button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.supplier-button a:hover {
+    background-color: rgb(19, 221, 239);
+    padding: 15px 20px;
+}
+
+@media (max-width: 1350px) {
+    .supplier-section-one {
+        flex-direction: column;
+    }
+
+    .section-one-text {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 910px)  {
+    .section-one-text {
+        width: 100%;
+    } 
+    .section-one-img {
+        width: 90%;
+    }
+}
+
+/* supplier-section-two */
+
+.supplier-section-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.supplier-section-two h2 {
+    font-size: 30px;
+    color: rgb(45, 52, 79);
+}
+
+.supplier-section-two p {
+    font-size: 18px;
+    padding: 10px 0;
+    color: rgb(100, 105, 123);
+}
+
+.supplier-section-text-button {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.supplier-section-text-button a {
+    background-color: rgb(97, 213, 223);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.supplier-section-text-button a:hover {
+    background-color: rgb(19, 221, 239);
+    padding: 15px 20px;
+}
+
+.supplier-section-two-text {
+    width: 60%;
+    text-align: left; 
+    padding: 0 15px;
+    line-height: 25px;
+}
+
+.supplier-section-two-img {
+    width: 40%;
+}
+
+.supplier-section-two-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1350px) {
+    .supplier-section-two  {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 910px) {
+    .supplier-section-two-img {
+        width: 90%;
+    }
+    .supplier-section-two-text {
+        width: 100%;
+    }
+}
