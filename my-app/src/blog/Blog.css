@@ -47,3 +47,118 @@
     }
 }
 
+/* blog-wrap  */
+
+.blog-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
+.blog-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    text-align: left;
+    padding: 0 10px;
+    gap: 2vh;
+}
+
+@media  (max-width: 414px) {
+    .blog-container {
+        width: 100%;
+    }
+}
+
+.blog-prodact {
+    background-color: aliceblue;
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+
+}
+
+.blog-image {
+    background-color: rgb(127, 169, 169);
+    height: 30vh;
+}
+
+.blog-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.blog-title {
+    width: 100%;
+    height: auto;
+    max-height: 10vh;
+    overflow: hidden;
+}
+
+.blog-title h2 {
+    padding: 5px;
+    font-size: 24px;
+    color: rgb(73, 84, 125);
+} 
+
+.blog-title h2:hover {
+    color: rgb(59, 189, 189);
+}
+
+.blog-info {
+    width: 100%;
+    height: auto;
+    max-height: 40vh;
+    line-height: 18px;
+}
+
+.blog-info p {
+    color: rgb(119, 119, 119);
+    padding: 0 10px;
+
+}
+
+.bring-it-on {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+
+}
+
+
+.bring-it-on a {
+    padding: 5px 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.blog-batton {
+    margin: 5px;
+
+}
+.blog-date {
+    margin: 10px 15px;
+}
+
+.blog-date p {
+    padding-left: 10px;
+    color: rgb(119, 119, 119);
+}
+
+.blog-date p::before {
+    content: "";
+    background-image: url('../images/calendar.png');
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-position: center;
+    top: 13px;
+    left: 5px;
+}   
