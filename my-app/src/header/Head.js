@@ -42,7 +42,10 @@ export default function Head () {
                             <Link to="/Supplier" style={{color: 'white'}}>
                             <li>supplier</li>
                             </Link>
+                            <Link to="/HelpCenter" style={{color: 'white'}}>
                             <li>helpcenter</li>
+                            </Link>
+
                             <li>blog</li>
                       
                         </ul>
